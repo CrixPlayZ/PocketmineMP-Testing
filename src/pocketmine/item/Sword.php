@@ -42,7 +42,7 @@ class Sword extends TieredTool{
 	}
 
 	public function getMiningEfficiency(Block $block) : float{
-		return parent::getMiningEfficiency($block) * 1.5; //swords break any block 1.5x faster than hand
+		return parent::getMiningEfficiency($block) * 13; //swords break any block 1.5x faster than hand
 	}
 
 	protected function getBaseMiningEfficiency() : float{

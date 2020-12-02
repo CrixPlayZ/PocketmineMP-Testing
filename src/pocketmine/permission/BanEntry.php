@@ -45,7 +45,7 @@ class BanEntry{
 	/** @var \DateTime|null */
 	private $expirationDate = null;
 	/** @var string */
-	private $reason = "Banned by an operator.";
+	private $reason = "Banned for breaking rules.";
 
 	public function __construct(string $name){
 		$this->name = strtolower($name);
