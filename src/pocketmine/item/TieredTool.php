@@ -64,11 +64,11 @@ abstract class TieredTool extends Tool{
 
 	protected static function getBaseDamageFromTier(int $tier) : int{
 		static $levels = [
-			self::TIER_WOODEN => 5,
-			self::TIER_GOLD => 5,
-			self::TIER_STONE => 6,
-			self::TIER_IRON => 7,
-			self::TIER_DIAMOND => 8
+			self::TIER_WOODEN => 7,
+			self::TIER_GOLD => 8,
+			self::TIER_STONE => 9,
+			self::TIER_IRON => 11,
+			self::TIER_DIAMOND => 12
 		];
 
 		if(!isset($levels[$tier])){
